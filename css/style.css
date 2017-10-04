@@ -1,0 +1,52 @@
+#container-block {
+    width: 400px;
+    height: 365px;
+    background: #ccc;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#inner-block {
+    width: 250px;
+    height: 200px;
+    background: #808080;
+    margin: 0 auto;
+}
+
+#textarea-block {
+    width: 244px;
+    height: 194px;
+    background: #ffbf00;
+    margin: 0 auto;
+
+}
+
+#press-key {
+    width: 250px;
+    height: 50px;
+    background: #8c7373;
+    margin: 25px auto 0;
+    text-align: center;
+    color: #00ff00;
+}
+
+.text {
+    padding-left: 100px;
+    color: #0000ff;
+}
+
+#textarea-block {
+    display: none;
+}
+
+#inner-block {
+    display: block;
+}
+
+.editMode #textarea-block {
+    display: block;
+}
+
+.editMode #inner-block {
+    display: none;
+}
